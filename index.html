@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de maquiagem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <style>
     body{
         background-color: rgb(253, 2227, 227);
+        margin: 0;
     }
-    h1 {
+    .topo{
+        background-color: rgb(255, 231, 253);
+        padding: 10px;
         text-align: center;
+        font-family: 'Unbounded';
+
     }
-    button {
-        background-color: rgb(245, 172, 200);
-        border: none;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
+    a{
+        text-decoration: none;
+        color: rgb(255, 148, 255);
+        padding: 20px;
     }
+    img{
+        width: 300px;
+        margin: 2px;
+    }
+    .comprar{
+        margin: 2px;
+    }
+
 </style>
 <body>
-    <div class="cartao">
+    <div class="topo">
         <h1 id="titulo">Blog de maquiagem</h1>
+        <nav>
+            <a href="#">Reviews de produtos</a>
+            <a href="#">Opções de compra</a>
+        </nav>
+    </div>
+    <div class="paragrafo">
         <p>Esse é um espaço dedicado ao universo de maquiagem, onde beleza, criatividade e autoestima se encontam. Aqui você encontra tutorias práticos, resenhas sinceras de produtos, dicas sobre cuidados com a pele e principais tendedencias sobre beleza.</p>
-        <button onclick="executarAcao">Click para inetragir</button>
     </div>
     <br>
     <div class="ft">
@@ -32,17 +52,5 @@
     <div class="comprar">
         <h2>Opções de compras:</h2>
     </div>
-
-    <script>
-        function executarAcao() {
-            const titulo = document.getElementById('titulo');
-
-            titulo.innerText = "Aprendizado concluido!";
-            titulo.style.color = "#28a745";
-            titulo.style.fontSize = "35px";
-
-            alert("O JavaScript alterou os estilos do HTML!");
-        }
-    </script>
 </body>
 </html>
