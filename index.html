@@ -24,6 +24,12 @@
         color: rgb(186, 113, 255);
 
     }
+
+    .paragrafo {
+        text-align: center;
+        font-size: small;
+    }
+
     a{
         text-decoration: none;
         color: rgb(186, 113, 255);
@@ -37,6 +43,17 @@
         padding: 5%;
     }
 
+     a:hover{
+    background:rgb(251, 187, 243);
+    }
+
+    .sub{
+        text-align: center;
+        margin: 5px;
+        color:rgb(186, 113, 255) ;
+        font-family: 'Unbounded' ;
+    }
+
     .produtos{
         margin: 5px;
         background-color: rgb(255, 231, 253);
@@ -46,12 +63,6 @@
         align-items: center;
     }
 
-    .sub{
-        text-align: center;
-        margin: 5px;
-        color:rgb(186, 113, 255) ;
-        font-family: 'Unbounded' ;
-    }
     
     button{
         cursor: pointer;
@@ -61,10 +72,6 @@
         font-size: larger;
     }
 
-    .paragrafo {
-        text-align: center;
-        font-size: small;
-    }
     img {
         width: 200px;
     }
@@ -80,7 +87,7 @@
         transition:0.3s;
     }
 
-    a:hover{
+    a.bnt:hover{
     background:rgb(251, 187, 243);
     }
 
@@ -94,7 +101,7 @@
 <body>
     <div class="topo">
         <h1 id="titulo">Blog de maquiagem</h1>
-        <button onclick="abrirCaixa()">Mais Opções</button>
+        <button class="menu-bnt" onclick="abrirCaixa()">Mais Opções</button>
         <br>
             <div id="caixa">
                 <a href="#">Produtos</a>
@@ -129,7 +136,7 @@
     </div>
 
     <footer>
-        © 2026 Ideias da Lia
+        © 2026 Ideias
     </footer>
 
 
