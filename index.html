@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
 </head>
 <style>
     body{
@@ -35,11 +37,18 @@
         padding: 5%;
     }
 
-    .comprar{
-        margin: 2px;
+    .produtos{
+        margin: 5px;
+        background-color: rgb(255, 231, 253);
+        color: rgb(186, 113, 255);
+    }
+
+    .sub{
+        margin: 5px;
+        color:rgb(186, 113, 255) ;
+        font-family: 'Unbounded' ;
     }
     
-
     button{
         cursor: pointer;
         border: none;
@@ -52,7 +61,24 @@
         text-align: center;
         font-size: small;
     }
+    img {
+        width: 200px;
+    }
 
+    .bnt {
+        display:inline-block;
+        background:#d63384;     
+        color:white;
+        padding:10px 20px;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    a:hover{
+    background:rgb(251, 187, 243);
+    }
 
 </style>
 <body>
@@ -72,10 +98,12 @@
 
     <br>
 
-    <div class="ft">
-    <div class="comprar">
+    <h2 class="sub">Opções de produtos</h2>
 
-        <h2>Opções de compras:</h2>
+    <div class="produtos">
+        <img src="https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw8592a6d7/images/Color%20BR/DIOR/2024/Ajustes/gloss_labial_dior/001/1.%203348901491150.jpg?sw=556&sh=680&sm=fit" alt="Dior Addict Lip Maximizer">
+        <p>Dior Addict Lip Maximizer</p>
+        <a href="https://shop.dior.com.br/dior-addict-lip-maximizer-ifc0820/p?gad_campaignid=19601631494&gad_source=1&gbraid=0AAAAADd1kX17ZtNuA6S64fHeO7Gbctspk&gclid=Cj0KCQiAwYrNBhDcARIsAGo3u32IzJn2NoL9qJZqjSVlNm2eh_2yjkm1XgTgDOWjZyB3gAVStVwSmd4aAsPWEALw_wcB&skuId=1525&utm_campaign=PCD_PC_BRA_FRA_WOM_MUP_OGOING_EC_PMAX_GGL_CRD_POR_BRL_NOA_NOA&utm_medium=cpc&utm_source=google&utm_source_platform=GoogleAds" class="bnt">Ver Produto</a>
     </div>
 
 
